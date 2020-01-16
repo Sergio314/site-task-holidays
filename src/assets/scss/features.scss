@@ -1,0 +1,46 @@
+#Features {
+  padding: 100px 0;
+}
+
+.allFeatures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.featureItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 15px;
+  width: 360px;
+  height: 214px;
+  margin-bottom: 50px;
+
+}
+
+.featureItem figcaption {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #2d3033;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.featureItem p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #6c7279;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+}
+
